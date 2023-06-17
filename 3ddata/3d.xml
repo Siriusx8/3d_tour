@@ -67,7 +67,7 @@
                  mainscene="pano41"
                  color="808080"
                  alpha="1"
-                 thumburl="%FIRSTXML%/_415_1_41/thumbnail.jpg"
+                 thumburl="%FIRSTXML%/firstpano/thumbnail.jpg"
                  floorplanurl=""
                  titleid="panogroup42_title"
                  descriptionid=""/>
@@ -96,7 +96,7 @@
 <scene name="pano41"
        heading="0"
        group="panogroup42"
-       thumburl="%FIRSTXML%/_415_1_41/thumbnail.jpg"
+       thumburl="%FIRSTXML%/firstpano/thumbnail.jpg"
        backgroundsound=""
        backgroundsoundloops="0"
        haspolygons="false"
@@ -126,42 +126,42 @@
           hlookat="0.000000"
           vlookat="0.000000"/>
 
-    <preview url="%FIRSTXML%/_415_1_41/preview.jpg" type="CUBESTRIP" striporder="FRBLUD" />
+    <preview url="%FIRSTXML%/firstpano/preview.jpg" type="CUBESTRIP" striporder="FRBLUD" />
 
 
         <image type="SPHERE" hfov="360" vfov="64.285700000000006" voffset="0" multires="true" baseindex="0" tilesize="512" devices="flash.and.desktop">
           <level tiledimagewidth="10752" tiledimageheight="1920">
-            <sphere url="_415_1_41/1/%v_%u.jpg"/>
+            <sphere url="firstpano/1/%v_%u.jpg"/>
           </level>
           <level tiledimagewidth="5376" tiledimageheight="960">
-            <sphere url="_415_1_41/0/%v_%u.jpg"/>
+            <sphere url="firstpano/0/%v_%u.jpg"/>
           </level>
         </image>
   
   <image type="CUBE" devices="desktop.and.html5">
-    <front url="_415_1_41/html5/0.jpg"/>
-    <right url="_415_1_41/html5/1.jpg"/>
-    <back  url="_415_1_41/html5/2.jpg"/>
-    <left  url="_415_1_41/html5/3.jpg"/>
-    <up    url="_415_1_41/html5/4.jpg"/>
-    <down  url="_415_1_41/html5/5.jpg"/>
+    <front url="firstpano/html5/0.jpg"/>
+    <right url="firstpano/html5/1.jpg"/>
+    <back  url="firstpano/html5/2.jpg"/>
+    <left  url="firstpano/html5/3.jpg"/>
+    <up    url="firstpano/html5/4.jpg"/>
+    <down  url="firstpano/html5/5.jpg"/>
   </image>
   
       <image type="CUBE" devices="tablet">
-        <front url="_415_1_41/tablet/0.jpg"/>
-        <right url="_415_1_41/tablet/1.jpg"/>
-        <back  url="_415_1_41/tablet/2.jpg"/>
-        <left  url="_415_1_41/tablet/3.jpg"/>
-        <up    url="_415_1_41/tablet/4.jpg"/>
-        <down  url="_415_1_41/tablet/5.jpg"/>
+        <front url="firstpano/tablet/0.jpg"/>
+        <right url="firstpano/tablet/1.jpg"/>
+        <back  url="firstpano/tablet/2.jpg"/>
+        <left  url="firstpano/tablet/3.jpg"/>
+        <up    url="firstpano/tablet/4.jpg"/>
+        <down  url="firstpano/tablet/5.jpg"/>
       </image>
       <image type="CUBE" devices="mobile">
-        <front url="_415_1_41/mobile/0.jpg"/>
-        <right url="_415_1_41/mobile/1.jpg"/>
-        <back  url="_415_1_41/mobile/2.jpg"/>
-        <left  url="_415_1_41/mobile/3.jpg"/>
-        <up    url="_415_1_41/mobile/4.jpg"/>
-        <down  url="_415_1_41/mobile/5.jpg"/>
+        <front url="firstpano/mobile/0.jpg"/>
+        <right url="firstpano/mobile/1.jpg"/>
+        <back  url="firstpano/mobile/2.jpg"/>
+        <left  url="firstpano/mobile/3.jpg"/>
+        <up    url="firstpano/mobile/4.jpg"/>
+        <down  url="firstpano/mobile/5.jpg"/>
       </image>
 
 
